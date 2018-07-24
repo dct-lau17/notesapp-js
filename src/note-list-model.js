@@ -10,6 +10,7 @@
 
    Notes.prototype.all = function() {
      return this.notes;
+
    };
 
   exports.Notes = Notes;

@@ -2,7 +2,7 @@
   function noteSaysHello() {
     var note = new Note("hello");
 
-    assert.isTrue(note.showNote() == "hello");
+    assert.isTrue(note.noteText() == "hello");
   }
   noteSaysHello();
 })(this);
